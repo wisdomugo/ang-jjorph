@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { JjorphAppComponent } from './jjorph-app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule
   ],
+  declarations: [
+    JjorphAppComponent
+  ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [JjorphAppComponent]
 })
 export class AppModule { }
