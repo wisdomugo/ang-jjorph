@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngf-bootstrap/dist/bootstrap.min.css",
+              "src/assets/css/mobile-menu.css",
+              "src/assets/fonts/flaticon/flaticon.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-2.1.4.min.js",
+              "src/assets/js/smoothscroll.js",
+              "src/assets/js/mobile-menu.js",
+              "src/assets/js/scripts.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {

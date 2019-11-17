@@ -1,12 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, Inject} from '@angular/core';
+import {JQ_TOKEN} from './common/index';
+import { $ } from 'protractor';
 
 @Component({
+  // tslint:disable-next-line: component-selector
   selector: 'jjorph-app',
-  template: `
-    <h1> Hello friend, Welcome to Jehovah Jireh <small>Orphanage Home</small></h1>
-    <img src="/assets/images/logon.png"/>
-  `
+  templateUrl: './jjorph-app.component.html'
 })
 export class JjorphAppComponent {
+  imgLink: string;
   title = 'jjorph';
+  constructor(@Inject(JQ_TOKEN) private $: any){}
+
+  popGallery(img) {
+    this.imgLink = img;
+    this.$('#simple-modal').modal();
+    //console.log(this.imgLink);
+  }
 }

@@ -1,14 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
 body {
-    font-family :  Roboto, sans-serif;
+    font-family : 'Roboto Condensed', sans-serif;
     font-size   : 19px;
     line-height : 26px;
     color       : #3a4750;
     font-weight : 300;
     background: #fff;
-    }
-    h1,h2,h3,h4,h5,h6{
-        font-family : 'Roboto Condensed', sans-serif;
     }
 
     h3.donate-h{
@@ -234,7 +230,7 @@ text-highlights
 
 /*feature-section*/
 .feature-section {
-   /* background      : url(../../assets/img/feature-bg.jpg) no-repeat;*/
+    background      : url(../../assets/img/feature-bg.jpg) no-repeat;
     background-size : cover;
     }
 
@@ -273,7 +269,7 @@ Shortcode Content
 --------------------------------------------------------------------- */
 .page-title-section {
     padding-top     : 80px;
-    /* background      : url(../../assets/img/page-bg/page-bg-1.jpg) no-repeat center center #4795bb;*/
+    background      : url(../../assets/img/page-bg/page-bg-1.jpg) no-repeat center center #4795bb;
     background-size : cover;
     }
 
@@ -663,11 +659,8 @@ Shortcode Content
 /*-------------------
     HERO SLIDER
 --------------------*/
-.hero-slide .carousel-inner>.item img{
+.hero-slide .carousel-inner>.item>img{
     min-width: 100% !important;
-    max-height: 550px !important;
-    border-top: solid 1px gray;
-    border-left: solid 1px gray;
 }
 
 .hero-slide .carousel-caption {
@@ -836,7 +829,6 @@ Shortcode Content
 }
 
 
-
 /*Media Query*/
 
 @media only screen and (max-width: 768px) {
@@ -928,7 +920,7 @@ Shortcode Content
 .testimonial {
     padding    : 80px 0px 90px;
     color      : #ffffff;
-    background: #4760bb repeat-x center bottom;
+    background: #4760bb url("../img/img-testimonial-bg.png") repeat-x center bottom;
     }
 
 #testimonialSlider .carousel-inner .item blockquote{
@@ -1066,7 +1058,7 @@ Shortcode Content
  *----------------------------------------------- */
 
 .single-page-title {
-    /*background  : url(../img/slides/img-page-titlem.jpg) no-repeat bottom;*/
+    background  : url(../img/slides/img-page-titlem.jpg) no-repeat bottom;
     background-size       : cover;
     width                 : 100%;
     background-attachment : fixed;
@@ -1482,7 +1474,7 @@ icon-style
  *   Footer
  *---------------------------------------------- */
 .footer {
-    background: #3a3a3a repeat-x center bottom;
+    background: #3a3a3a url("../img/img-testimonial-bg.png") repeat-x center bottom;
     }
 
 .footer-widget-section{
@@ -1490,7 +1482,7 @@ icon-style
 }
 
 .footer .footer-logo {
-    margin-top: 10px;
+    margin-bottom: 30px;
     }
 
 .footer .footer-text {
@@ -1499,7 +1491,7 @@ icon-style
     }
 
 .footer .footer-text ul{
-    border-top: 1px solid rgb(131, 129, 129);
+    border-top: 1px solid rgba(255,255,255,.05);
     padding-top: 30px;
     margin-top: 20px;
     vertical-align: top;
@@ -1515,12 +1507,9 @@ icon-style
 .footer .footer-text li{
     display: table-cell;
 }
-.footer .footer-text p{
-    border-bottom: none;
-}
 
 .footer .footer-text ul .phone{
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .footer .footer-text ul i{
@@ -1624,7 +1613,7 @@ icon-style
 
 #status,
 .status-mes {
-    /*background-image: url(../img/preloader.gif);*/
+    /* background-image: url(../img/preloader.gif);*/
     background-position: center;
     background-repeat: no-repeat;
     height: 200px;
@@ -1642,31 +1631,3 @@ icon-style
     text-align: center;
     top: 65%;
     }
-
-
-.modal-img{
-    width: 100%;
-    height: auto;
-}
-.carousel-inner>.item>.row>.col-sm-4 h1{
-    color: red;
-}
-.carousel-inner>.item>.row>.col-sm-4{
-    background-color: #fff;
-    background-image: linear-gradient(to bottom right, black, rgb(116, 116, 21));
-}
-.headins{text-transform: uppercase;}
-.case-studies .case-studies-content img{
-    width: 100%;
-    max-height: 500px;
-    border: solid 2px #fff;
-}
-.modal-body, .modal, .modal-content{
-    padding: 3px !important;
-}
-.modal-body, .modal-content{
-    background-color: #fff;
-}
-.modal-footer{
-    background-color: inherit !important;
-}
